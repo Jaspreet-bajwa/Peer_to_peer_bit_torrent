@@ -1,0 +1,35 @@
+Dec 06, 2017 12:52:24 PM p2p.logging.LogFile makeConnectionToPeer
+INFO: Peer1 1002 makes a connection to Peer1 1001
+
+Dec 06, 2017 12:52:24 PM p2p.logging.LogFile sentHandshake
+INFO: 1002 sent handshake to: 1001
+Dec 06, 2017 12:52:24 PM p2p.logging.LogFile receivedHandshake
+INFO: 1002 received handshake from: 1001
+Dec 06, 2017 12:52:24 PM p2p.logging.LogFile sentBitfield
+INFO: 1002 sent bitfield to: 1001
+Dec 06, 2017 12:52:24 PM p2p.logging.LogFile receiveBitfield
+INFO: 1002 received bitfield from: 1001
+Dec 06, 2017 12:52:24 PM p2p.logging.LogFile sentInterest
+INFO: 1002 sent interest to: 1001
+Dec 06, 2017 12:52:24 PM p2p.logging.LogFile receiveInterest
+INFO: 1002 received interest from: 1001
+Dec 06, 2017 12:52:24 PM p2p.logging.LogFile receiveNotInterested
+INFO: Peer1 1002 receives the not interested message from 1001
+
+Dec 06, 2017 12:52:24 PM p2p.logging.LogFile unchoking
+INFO: Peer1 1002 is unchoked by 1001
+
+Dec 06, 2017 12:52:24 PM p2p.logging.LogFile downloadPiece
+INFO: Peer1 1002 has downloaded the piece 0 from 1001
+
+Dec 06, 2017 12:52:24 PM p2p.logging.LogFile stop
+INFO: STOP message sent, breaking out from while loop
+Dec 06, 2017 12:52:24 PM p2p.logging.LogFile downloadPiece
+INFO: Peer1 1002 has downloaded the piece 1 from 1001
+
+Dec 06, 2017 12:52:24 PM p2p.logging.LogFile downloadPiece
+INFO: Peer1 1002 has downloaded the piece 2 from 1001
+
+Dec 06, 2017 12:52:24 PM p2p.logging.LogFile downloadCompletion
+INFO: Peer1 1002 has downloaded the complete file. 
+
